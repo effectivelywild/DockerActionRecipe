@@ -9,6 +9,6 @@ jobs:
     steps:
       - uses: actions:checkout@v4.1.1
       - name: Run my own container action 
-        uses: /
+        uses: ./.github/actions/action.yml
         with:
           who-to-greet: '@effectivelywild'
